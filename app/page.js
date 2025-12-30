@@ -4,9 +4,20 @@ export default function Home() {
       
       {/* HERO */}
       <section style={{ marginBottom: "80px" }}>
-        <h1 style={{ fontSize: "3rem", marginBottom: "10px" }}>
-          Kash <span style={{ color: "#d4af37" }}>Kustoms</span>
-        </h1>
+        <h1
+  style={{
+    fontSize: "3.2rem",
+    marginBottom: "10px",
+    letterSpacing: "1px",
+    fontWeight: "700",
+  }}
+>
+  <span style={{ color: "#ffffff" }}>Kash</span>{" "}
+  <span style={{ color: "#d4af37", fontWeight: "800" }}>
+    Kustoms
+  </span>
+</h1>
+
         <p style={{ fontSize: "1.2rem", color: "#ccc" }}>
           Auto • Residential • Commercial • Marine Window Tinting
         </p>
