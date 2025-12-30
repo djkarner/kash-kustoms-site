@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Kash Kustoms Tinting",
+  title: "Kash Kustoms",
   description: "Auto, Residential, Commercial & Marine Window Tinting",
 };
 
@@ -9,9 +9,9 @@ export default function RootLayout({ children }) {
       <body
         style={{
           margin: 0,
-          backgroundColor: "#000",
-          color: "#fff",
-          fontFamily: "Arial, Helvetica, sans-serif",
+          backgroundColor: "#000000",
+          color: "#ffffff",
+          fontFamily: "Arial, sans-serif",
         }}
       >
         {children}
@@ -19,4 +19,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
